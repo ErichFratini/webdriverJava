@@ -1,5 +1,5 @@
-testAdicionarUmaInformacaoDoUsuario,tipo,contato,mensagem
-				                   ,Phone,+55119898911122,Your contact has been added
-                                   ,Phone,+55119898911123,Your contact has been added
-                                   ,Phone,+55119898911124,Your contact has been added
-                                   ,E-mail,teste@teste.com,Your contact has been added
+testAdicionarUmaInformacaoDoUsuario,tipo,contato,mensagem,Duration(ms)
+"",Phone,+55119898911122,Your contact has been added!,1156.0
+"",Phone,+55119898911123,Your contact has been added!,1112.0
+"",Phone,+55119898911124,Your contact has been added!,954.0
+"",E-mail,teste@teste.com,Your contact has been added!,935.0

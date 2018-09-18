@@ -16,7 +16,6 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -25,7 +24,6 @@ import suporte.Screenshot;
 import suporte.Web;
 import suporte.generator;
 
-import java.util.concurrent.TimeUnit;
 import static junit.framework.TestCase.assertEquals;
 
 @RunWith(DataDrivenTestRunner.class)
