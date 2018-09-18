@@ -12,14 +12,14 @@ public class InformacoesUsuarioPageObjectsTest {
 	private WebDriver navegador;
 
 	@Before
-	private void setUp() {
+	public void setUp() {
 		navegador = Web.createChrome();
 	}
 	@Test
-	private void testAdicionarUmaInformacaoDoUsuario() {
+	public void testAdicionarUmaInformacaoDoUsuario() {
 		new LoginPage(navegador)
-			.clickSignIn()
-			.typeLogin("julio0001");
+			.clicarSignIn()
+			.fazerLogin("julio0001", "123456");
 	}
 	
 	@After

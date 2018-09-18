@@ -9,7 +9,7 @@ public class LoginPage {
 	public LoginPage(WebDriver navegador) {
 		this.navegador = navegador;
 	}
-	public LoginFormPage clickSignIn() {
+	public LoginFormPage clicarSignIn() {
 		//Clicar no link que o texto sign in		
 		/**WebElement linkSignIn = navegador.findElement(By.linkText("Sign in"));
 		linkSignIn.click();
