@@ -1,9 +1,5 @@
 package tests;
 
-
-
-
-
 import org.easetech.easytest.annotation.DataLoader;
 import org.easetech.easytest.annotation.Param;
 import org.easetech.easytest.runner.DataDrivenTestRunner;
@@ -122,7 +118,6 @@ public class InformacaoUsuarioTest {
 	@After
 	public void tearDown() {
 		//Fechar o navegador
-		
-				//navegador.quit();	
+		//navegador.quit();	
 	}
 }
